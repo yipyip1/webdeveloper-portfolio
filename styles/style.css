@@ -155,3 +155,73 @@ main{
     margin-top: 50px;
     margin-bottom: 50px;
 }
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+.experience-description, .experience-sub-title{
+    color: #757575;
+    margin-bottom: 15px;
+
+}
+.experience-sub-title{
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 15px;
+}
+.experience >h4{
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 25px;
+
+}
+.resume-column> .column-title{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+.section-title{
+    text-align: center;
+    margin-bottom: 60px;
+}
+.CV{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.iconic{
+    margin-top: 20px;
+}
+
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+.footer-column{
+    width: 50%;
+}
+
+footer input[type="text"], footer input[type="email"]{
+    height: 30px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 80%;
+    border: none;
+    padding: 10px;
+    margin-bottom: 24px;
+    font-size: 16px;
+}
+
+footer textarea{    
+    height: 30px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 80%;
+    border: none;
+    padding: 10px;
+    margin-bottom: 24px;
+    font-size: 16px;}
